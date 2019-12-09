@@ -3,12 +3,6 @@ function testIt(a, b) {
   const backToArrayA = [...uniqSetA]
   const uniqSetB = new Set(b)
   const backToArrayB = [...uniqSetB]
-  
-  return backToArrayA.concat(backToArrayB).sort(sortNumber)
+  return backToArrayA.concat(backToArrayB).sort((a, b) => a - b)
 
 }
-
-function sortNumber(a, b) {
-  return a - b;
-}
-
