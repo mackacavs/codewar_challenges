@@ -1,4 +1,4 @@
-function meeting(s) {
+function meeting(s) { 
   let newArray = s.split(';').map(element => {
     newString = ''
     arrayByName = element.toUpperCase().split(':')
