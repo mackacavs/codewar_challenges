@@ -2,7 +2,7 @@ function vowelsBack(string) {
   returnedString = ''
 
   mainConsonents = ['b', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q']
-  consonentsPassZ = ['r', 's', 'w', 'x', 'y', 'z']
+  consonentsPassZ = ['r', 's', 'w', 'x', 'y', 'z'] 
   cOrO = ['c', 'o']
 
   for (i = 0; i < string.length; i++) {
