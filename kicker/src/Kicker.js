@@ -1,0 +1,2 @@
+function kicker(x, s) {
+}
