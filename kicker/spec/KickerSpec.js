@@ -7,8 +7,13 @@ describe("Kicker", function () {
   it("Should return '.         '", function () {
     expect(kicker('Beautiful is better than ugly.', 10, 39)).toEqual('.         ');
   });
+
   it("Should return '         B'", function () {
     expect(kicker('Beautiful is better than ugly.', 10, 41)).toEqual('         B');
+  });
+
+  it("Should return 'than ugly.'", function () {
+    expect(kicker('Beautiful is better than ugly.', 10, 30)).toEqual('than ugly.');
   });
 
 });
